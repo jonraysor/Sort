@@ -13,7 +13,8 @@ using namespace std;
 
 //This fucntion will swap the two elements when the while loop is broken in QuickSort::partition().
 template <class T>
-void swap(T* a, T* b){
+// this function is labled static so it can not be accessed outside of QuickSort_h
+static void swap(T* a, T* b){
     T t = *a;
     *a = *b;
     *b = t;
@@ -21,7 +22,8 @@ void swap(T* a, T* b){
 
 //This function partitions the array checking if the conditions are met. If a condition is not met a swap is done.
 template <class T>
-int partition(T *arr, int left, int right, T pivot){
+// this function is labled static so it can not be accessed outside of QuickSort_h
+static int partition(T *arr, int left, int right, T pivot){
     
     // while the two 'pointers' don't meet eachother the loop will run.
     while (left <= right){
