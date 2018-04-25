@@ -11,16 +11,16 @@
 
 int main(int argc, const char * argv[]) {
    
-    int numbers[5];
+    int numbers[6];
     
     for (int i =0; i < 5; i ++){
-        cout << "Enter a random number" << endl;
-        cin >> numbers[i];
+        std::cout << "Enter a random number" << std::endl;
+        std:: cin >> numbers[i];
     }
     
-    quickSort(numbers, numbers[0], numbers[4]);
+    quickSort(numbers, 0,5);
     
     for (int i=0; i <5; i++){
-        cout << numbers[i] << endl;
+        std::cout << numbers[i] << std::endl;
     }
 }
