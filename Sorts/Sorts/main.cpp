@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include "QuickSort.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+   
+    int numbers[5];
+    
+    for (int i =0; i < 5; i ++){
+        cout << "Enter a random number" << endl;
+        cin >> numbers[i];
+    }
+    
+    quickSort(numbers, numbers[0], numbers[4]);
+    
+    for (int i=0; i <5; i++){
+        cout << numbers[i] << endl;
+    }
 }
