@@ -27,6 +27,7 @@
 		AB0AA3DE2084F7580006AC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AB0AA3E52084F7A80006AC6E /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		AB2558472090CF2500A09943 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		AB75A6CF2096286D002324F1 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				AB0AA3DE2084F7580006AC6E /* main.cpp */,
-				AB0AA3E52084F7A80006AC6E /* MergeSort.h */,
+				AB75A6CF2096286D002324F1 /* BubbleSort.h */,
 				AB2558472090CF2500A09943 /* QuickSort.h */,
+				AB0AA3E52084F7A80006AC6E /* MergeSort.h */,
 			);
 			path = Sorts;
 			sourceTree = "<group>";

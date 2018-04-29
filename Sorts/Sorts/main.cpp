@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "QuickSort.h"
+#include "BubbleSort.h"
 
 int main(int argc, const char * argv[]) {
    
@@ -18,7 +19,7 @@ int main(int argc, const char * argv[]) {
         std:: cin >> numbers[i];
     }
     
-    quickSort(numbers, 0,5);
+    bubbleSort(numbers, 6);
     
     for (int i=0; i <5; i++){
         std::cout << numbers[i] << std::endl;
