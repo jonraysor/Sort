@@ -9,6 +9,7 @@
 #include <iostream>
 #include "QuickSort.h"
 #include "BubbleSort.h"
+#include "MergeSort.h"
 
 int main(int argc, const char * argv[]) {
    
@@ -19,7 +20,7 @@ int main(int argc, const char * argv[]) {
         std:: cin >> numbers[i];
     }
     
-    bubbleSort(numbers, 6);
+    mergeSort(numbers, 6);
     
     for (int i=0; i <5; i++){
         std::cout << numbers[i] << std::endl;
