@@ -56,6 +56,11 @@ static int partition(T *arr, int left, int right, T pivot){
 //This recursive function sorts the data set using the QuickSort::partition() and QuickSort::quickSort().
 template <class T>
     void quickSort(T *arr, int left, int right){
+
+        // if the given dataset is empty we will return
+        // given that there is nothing to sort
+        if (sizeof(arr)/sizeof(arr[0]) == 0)
+            return;
         
     // this is our base case for the recursive function.
         // if the left 'pointer' is equal to the right pointer that means there's no more calls to QuickSort::partition() and we can start to go back down the stack (recursion).

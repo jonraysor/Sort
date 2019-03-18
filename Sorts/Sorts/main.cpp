@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
         std:: cin >> numbers[i];
     }
     
-    insertionSort(numbers, 6);
+    quickSort(numbers,0, 6);
     
     for (int i=0; i <5; i++){
         std::cout << numbers[i] << std::endl;
